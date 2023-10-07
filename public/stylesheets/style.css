@@ -24,6 +24,7 @@ body,html{
   font-weight: 700;
 }
 .bg{
+  /*Imagie for now untill I learn a better css background*/
   background-image: url(/images/Background\(1\).jpg);
   min-height: 100vh;
   background-position: center;
@@ -38,6 +39,8 @@ body,html{
   margin-right: auto;     
 }
 #head-profile{
+  background-color: #E0E0E0;
+  /* gray fallback color if imagw dosnt exist*/
   border-radius: 50%;
   float: right; 
   margin-right: 100px;

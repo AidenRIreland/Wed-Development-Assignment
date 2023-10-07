@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/PNG" href="images/Profile"/>
-        <link rel='stylesheet' href='/stylesheets/style.css' />
-        <!--Made by Aiden Ireland, 10-07 -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    </head>
+    <!--Import ejs file so I dont have to keep writiting it over and over and over and over and over and over and over-->
+    <%- include('partials/head.ejs') %>
     <div class = "bg">
     <div id="whole">
     <body>
@@ -29,8 +20,8 @@
         <main>
             <!--Profile div (For context when adding css)-->
             <div>
-                <h2>Profile</h2>
-                <img src="imagies/Profile.PNG" alt="Profile" width="300" id ="head-profile">
+                <h2>Home</h2>
+                <img src="/images/Profile.PNG" alt="/images/empty.PNG" width="300" id ="head-profile">
                 <ul>
             <table>
             <tbody><tr>
@@ -74,7 +65,7 @@
         </tbody>
         </table>
          </ul>
-         <hr style="border-width: 3px;">
+         <!-- <hr style="border-width: 3px;">
          <h2>About</h2>
          <p>Hello, im Aiden Ireland and welcome to my page/portfolio website.<br><br> I am currently enrolled at Centennial College, completeing my college advance diploma in
              <a href="https://www.centennialcollege.ca/programs-courses/full-time/software-engineering-technology/">Software Enginnering Technology (Co-op route)</a>. My main goal while in college is to learn as much useful and pratical skills as I can to help me on my career path while making connections with my fellow students on campus, Computer Science
@@ -89,7 +80,7 @@
                 <il>CCS   </il>
                 <il>JavaScript   </il>
                 
-            </ul>
+            </ul> -->
         </main>
         <footer>
             <hr>
