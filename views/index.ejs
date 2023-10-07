@@ -2,21 +2,13 @@
 <html>
     <!--Import ejs file so I dont have to keep writiting it over and over and over and over and over and over and over-->
     <%- include('partials/head.ejs') %>
-    <div class = "bg">
     <div id="whole">
     <body>
         <header>
             
 <h4>Aiden Ireland, Software Enginnering Student</h4>
         </header>
-            <nav>
-                <hr>
-                    <a class="menu" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="menu" href="Portfolio.html">Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="menu" href="Resume.html">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="menu" href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <hr>
-            </nav>
+        <%- include('partials/nav.ejs') %>
         <main>
             <!--Profile div (For context when adding css)-->
             <div>
@@ -103,4 +95,4 @@
             </h6>
         </footer>
     </body>
-</div></div></html>
+</div></html>
