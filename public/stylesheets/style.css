@@ -1,8 +1,87 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+hr{
+  border-style: solid;
+  border-color: black ;
+  border-width: 3px;
+}
+#whole{
+padding:2px;
+  border-style:ridge;
+  border-color:#fffb00;
+  width: 100%;
+  max-width:980px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 25px;
+}
+body,html{
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  height: 100%;
+}
+.menu{
+  color: white;
+  font-weight: 700;
+}
+.bg{
+  background-image: url(/images/Background\(1\).jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+.alingtable{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;     
+}
+#head-profile{
+  border-radius: 50%;
+  float: right; 
+  margin-right: 100px;
+  border: 1px solid #fffb00;
+}
+h2{
+  text-decoration: solid;
+  padding-left: 50px;
+}
+p{
+  padding-left: 50px;
+}
+footer{
+  text-align: center;
+}
+h5{
+  text-decoration: solid;
+  padding-left: 50px;
+}
+h4{
+  text-decoration: solid;
+  text-align: center;
+}
+table#mainTable{
+  border: 1px solid #fffb00;    
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px #000001;
+  padding: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+.submit_btn{
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  background-color:transparent;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.submit_btn:hover{
+background: black;
+border: 3px solid white;
 }
