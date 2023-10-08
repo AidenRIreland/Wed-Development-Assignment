@@ -1,3 +1,4 @@
+
 hr{
   border-style: solid;
   border-color: black ;
@@ -87,4 +88,17 @@ table#mainTable{
 .submit_btn:hover{
 background: black;
 border: 3px solid white;
+}
+h3{
+  text-decoration: solid;
+  padding-left: 50px;
+}
+#project{
+  border: 1px solid #fffb00;    
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px #000001;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color:rgba(0,0,0,0.5) ;
 }
