@@ -83,11 +83,13 @@ table#mainTable{
   cursor: pointer;
   border-radius: 20px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .submit_btn:hover{
 background: black;
 border: 3px solid white;
+transform: scale(1.05);
 }
 h3{
   text-decoration: solid;
@@ -100,14 +102,28 @@ h3{
   padding: 10px;
   width: 80%;
   margin: 0 auto;
+  box-sizing: border-box;
   background-color:rgba(0,0,0,0.5) ;
   transition: transform 0.3s ease; /*Transform div in 0.3 seconds with a transition*/
-  
+
 }
 #project:hover {
   transform: scale(1.05); /*mskrd it 105% of its size */
 }
 table img{
-  max-width: 500px;
-  max-height: 500px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+  border: 1px solid #fffb00;    
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px #000001;
+  width: 80%;
+  margin-left: 19%;
+  box-sizing: border-box;
+  background-color:rgba(0,0,0,0.5) ;
+}
+table img:hover{
+  transform: scale(1.05);
 }
