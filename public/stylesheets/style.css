@@ -101,4 +101,13 @@ h3{
   width: 80%;
   margin: 0 auto;
   background-color:rgba(0,0,0,0.5) ;
+  transition: transform 0.3s ease; /*Transform div in 0.3 seconds with a transition*/
+  
+}
+#project:hover {
+  transform: scale(1.05); /*mskrd it 105% of its size */
+}
+table img{
+  max-width: 500px;
+  max-height: 500px;
 }
