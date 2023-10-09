@@ -24,6 +24,15 @@ body,html{
   color: white;
   font-weight: 700;
 }
+nav {
+  /*Center nav*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu:hover{
+  color: #fffb00;
+}
 body{
   /*Imagie for now untill I learn a better css background*/
   background-image: url(/images/Background\(1\).jpg);
